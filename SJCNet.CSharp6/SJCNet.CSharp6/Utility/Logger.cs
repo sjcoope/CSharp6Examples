@@ -14,12 +14,12 @@ namespace SJCNet.CSharp6.Utility
             WriteLine(new String(HeaderSymbol, SymbolCount));
             Write(heading);
             WriteLine(new String(HeaderSymbol, SymbolCount));
-            WriteLine(String.Empty);
+            AddLineBreak();
         }
 
         public static void WriteFooter(string footer)
         {
-            WriteLine(String.Empty);
+            AddLineBreak();
             WriteLine(new String(HeaderSymbol, SymbolCount));
             Write(footer);
             WriteLine(new String(HeaderSymbol, SymbolCount));
@@ -27,7 +27,7 @@ namespace SJCNet.CSharp6.Utility
 
         public static void WriteSubHeader(string message)
         {
-            WriteLine(String.Empty);
+            AddLineBreak();
             WriteLine(message);
             WriteLine(new String(SubHeaderSymbol, SymbolCount));
         }
@@ -35,6 +35,11 @@ namespace SJCNet.CSharp6.Utility
         public static void Write(string message)
         {
             WriteLine($"{DateTime.Now.ToShortDateString()} {DateTime.Now.ToShortTimeString()}: {message}");
+        }
+
+        public static void AddLineBreak()
+        {
+            WriteLine(String.Empty);
         }
     }
 }

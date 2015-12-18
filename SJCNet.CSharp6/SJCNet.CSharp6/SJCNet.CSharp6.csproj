@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoPropertyInitializer\Example.cs" />
+    <Compile Include="AutoPropertyInitializer\Person.cs" />
     <Compile Include="IExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

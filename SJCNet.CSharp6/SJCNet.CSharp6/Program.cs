@@ -13,6 +13,10 @@ namespace SJCNet.CSharp6
             var staticUsingSyntaxExample = new StaticUsingSyntax.Example();
             staticUsingSyntaxExample.Execute();
 
+            // Example: Auto Property Initializers
+            var autoPropertyInitializerExample = new AutoPropertyInitializer.Example();
+            autoPropertyInitializerExample.Execute();
+
             Logger.WriteFooter("Ended");
             Read();
         }
