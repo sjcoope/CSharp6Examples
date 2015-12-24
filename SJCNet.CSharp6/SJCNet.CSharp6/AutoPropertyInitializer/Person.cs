@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace SJCNet.CSharp6.AutoPropertyInitializer
 {
     public class Person
@@ -11,11 +6,17 @@ namespace SJCNet.CSharp6.AutoPropertyInitializer
         public Person()
         {}
 
-        public Person(string givenNames, string familyName, int age)
+        public Person(string givenNames, string familyName, int age, Genders gender)
         {
             this.GivenNames = givenNames;
             this.FamilyName = familyName;
             this.Age = age;
+            this.Gender = gender;
+        }
+
+        public Person(Genders gender)
+        {
+            this.Gender = gender;
         }
 
         public string GivenNames{ get; set; } = "John";
@@ -24,5 +25,6 @@ namespace SJCNet.CSharp6.AutoPropertyInitializer
 
         public int Age { get; set; } = 30;
 
+        public Genders Gender { get; } = Genders.Male;
     }
 }

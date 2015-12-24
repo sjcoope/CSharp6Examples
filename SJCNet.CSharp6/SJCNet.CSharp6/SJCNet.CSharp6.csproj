@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoPropertyInitializer\Example.cs" />
+    <Compile Include="AutoPropertyInitializer\Genders.cs" />
     <Compile Include="AutoPropertyInitializer\Person.cs" />
     <Compile Include="IExample.cs" />
     <Compile Include="Program.cs" />
