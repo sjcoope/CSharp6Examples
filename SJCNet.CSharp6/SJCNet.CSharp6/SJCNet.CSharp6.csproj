@@ -46,10 +46,21 @@
     <Compile Include="AutoPropertyInitializer\Example.cs" />
     <Compile Include="AutoPropertyInitializer\Genders.cs" />
     <Compile Include="AutoPropertyInitializer\Person.cs" />
+    <Compile Include="AwaitInCatchAndFinally\Example.cs" />
+    <Compile Include="ExceptionFilter\Example.cs" />
+    <Compile Include="ExpressionBodiedMembers\Example.cs" />
+    <Compile Include="ExpressionBodiedMembers\Person.cs" />
+    <Compile Include="IndexInitializers\Example.cs" />
     <Compile Include="IExample.cs" />
+    <Compile Include="NameOf\Example.cs" />
+    <Compile Include="NameOf\Genders.cs" />
+    <Compile Include="NameOf\Person.cs" />
+    <Compile Include="NullConditionalOperators\Example.cs" />
+    <Compile Include="NullConditionalOperators\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticUsingSyntax\Example.cs" />
+    <Compile Include="StringInterpolation\Example.cs" />
     <Compile Include="Utility\Logger.cs" />
   </ItemGroup>
   <ItemGroup>
